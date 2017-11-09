@@ -72,7 +72,7 @@ var mapStyles = [
         "elementType": "all",
         "stylers": [
             {
-                "color": "#46bcec"
+                "color": "#000000"
             },
             {
                 "visibility": "on"
@@ -84,7 +84,7 @@ var mapStyles = [
         "elementType": "geometry.fill",
         "stylers": [
             {
-                "color": "#2196f3"
+                "color": "#ffffff"
             }
         ]
     }
@@ -155,7 +155,7 @@ function initialize() {
                 '<img src="'+value.thumbnail+'">'+
                 '</div>'+
                 '<div class="back">'+
-                '<i class="fa fa-eye"></i>'+
+                '<i class="fa fa-handshake-o"></i>'+
                 '</div>'+
                 '</div>'+
                 '</div>';

@@ -231,7 +231,7 @@ h5 {
 }
 
 a {
-  color: #2196f3;
+  color: #3333cc;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
@@ -2201,14 +2201,33 @@ a.link:hover {
 }
 
 .navbar-nav li.dropdown.megaDropMenu .dropdown-menu .mega-img {
-  padding: 0;
+  padding: 0px;
   text-align: center;
 }
 
 .navbar-nav li.dropdown.megaDropMenu .dropdown-menu .mega-img a {
-  padding: 10px 0 0;
+  padding: 10px;
   background-color: transparent;
 }
+
+.navbar-nav li.dropdown.megaDropMenu .dropdown-menu .currently-in {
+  padding: 0px;
+  text-align: center;
+} 
+
+.navbar-nav li.dropdown.megaDropMenu .dropdown-menu .change-currently-in {
+  padding: 0px;
+  text-align: center;
+  color:#000000;
+} 
+
+.navbar-nav li.dropdown.megaDropMenu .dropdown-menu .change-currently-in :hover {
+  padding: 0px;
+  text-align: center;
+  color:#3333cc;
+} 
+
+
 
 .navbar-nav li.dropdown.megaDropMenu .dropdown-menu .list-unstyled {
   width: 100%;
@@ -2242,7 +2261,7 @@ a.link:hover {
 }
 
 .navbar-nav li.dropdown.megaDropMenu .dropdown-menu .list-unstyled li a:hover {
-  color: #2196f3;
+  color: #3333cc;
 }
 
 .navbar-nav li.dropdown.megaDropMenu .dropdown-menu .list-unstyled li:nth-child(4) a {
@@ -2396,7 +2415,7 @@ a.link:hover {
 
 .navbar-nav li.dropdown.singleDrop .dropdown-menu li a:hover {
   background-color: #ffffff;
-  color: #2196f3;
+  color: #3333cc;
   padding-left: 25px;
 }
 
@@ -2866,8 +2885,9 @@ a.link:hover {
   color: #ffffff;
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
+  font-family : "Poppins",sans-serif;
+  font-size: 14px;
+  font-weight: 700;
   box-shadow: none;
   position: absolute;
   right: 70px;
@@ -2959,7 +2979,7 @@ a.link:hover {
 
 .navbarWhite .navbar-btn {
   color: #fff;
-  background-color: #3333cc;
+  color: #3333cc;
   border-color: #3333cc;
 }
 .navbarWhite .navbar-btn:hover {
@@ -3080,6 +3100,8 @@ a.link:hover {
 .navbar-default.navbar-dashboard .input-group .input-group-btn .btn:hover, .navbar-default.navbar-dashboard .input-group .input-group-btn .btn:focus {
   background-color: transparent;
 }
+
+
 
 /*=== 4. FOOTER ===*/
 footer {
@@ -4330,7 +4352,7 @@ footer {
   width: 100%;
   z-index: 500;
   padding: 15px;
-  border: 2px solid rgba(33, 150, 243, 0.3);
+  border: 1px solid #333;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
   bottom: 130px;
   left: 50%;
@@ -4899,7 +4921,7 @@ figure:hover .overlay {
 
 .categoryItem i.icon-listy {
   font-size: 42px;
-  color: #848484;
+  color: #3333cc;
 }
 
 .categoryItem h2 {
@@ -4923,7 +4945,7 @@ figure:hover .overlay {
 }
 
 .categoryItem .list-unstyled li a:hover {
-  color: #2196f3;
+  color: #3333cc;
   text-decoration: underline;
 }
 

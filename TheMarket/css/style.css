@@ -6415,6 +6415,30 @@ input[type=radio]:focus,
   margin-bottom: 14px;
 }
 
+/* Single Listing Header */
+.tr-breadcrumb {
+  color: #616161;
+  padding: 100px 0;
+  overflow: hidden;
+  background-color: #eee;
+}
+
+.tr-breadcrumb .breadcrumb-logo img {
+  height: 150px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.tr-breadcrumb .breadcrumb-info .buttons a {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#single-listing-arrow-down div {
+  text-align: center;
+  font-size: 40px;
+}
+
+
 .listing__form .btn-submit {
   background-color: #2196f3;
   color: #ffffff;
@@ -7418,7 +7442,6 @@ table.dataTable thead .sorting_desc_disabled:after {
 
 .detailsInfoBox {
   padding: 47px 0 42px 0;
-  border-top: 1px solid #e5e5e5;
 }
 
 .detailsInfoBox h3 {

@@ -180,6 +180,7 @@ h5 {
   text-transform: capitalize;
 }
 
+
 .no-js #loader {
   display: none;
 }
@@ -2241,7 +2242,7 @@ a.link:hover {
 }
 
 .navbar-nav li.dropdown.megaDropMenu .dropdown-menu .list-unstyled li h5 {
-  color: #a0a0a0;
+  color: #333;
   margin-left: 20px;
   margin-top: 20px;
 }
@@ -3100,6 +3101,22 @@ a.link:hover {
 .navbar-default.navbar-dashboard .input-group .input-group-btn .btn:hover, .navbar-default.navbar-dashboard .input-group .input-group-btn .btn:focus {
   background-color: transparent;
 }
+
+/*=== 3.3 NAVBAR  ===*/
+
+#menuBar #navBarHeaderMarginFix {
+  margin: 0px;
+  color: #616161;
+  font-family: "Poppins",sans-serif;
+  font-weight: 600;
+}
+
+#menuBar #navBarHeaderMarginFix:hover {
+  color: #3333cc;
+  transition: all 0.3s ease-in-out;  
+}
+
+
 
 
 
@@ -9222,11 +9239,10 @@ body.rtl .checkbox .pull-right.link {
 #IMG_35, #IMG_85, #IMG_135, #IMG_185, #IMG_235, #IMG_285, #IMG_335, #IMG_386 {
   box-sizing: border-box;
   display: block;
-  height: 50px;
+  height: 100%;
   max-width: 100%;
   text-size-adjust: 100%;
   vertical-align: middle;
-  width: 150px;
   perspective-origin: 75px 25px;
   transform-origin: 75px 25px;
   font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;

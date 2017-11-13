@@ -210,305 +210,305 @@
 <!-- DASHBOARD SECTION -->
 <section class="clearfix bg-dark equalHeight dashboardSection">
 	<div class="container">
-		<div class="row">
-			<div class="col-sm-4 col-xs-12">
-				<div class="panel panel-default panel-card">
-					<div class="panel-heading">
-						Listings <span class="label label-primary">Monthly</span>
-					</div>
-					<div class="panel-body">
-						<h2>71,503</h2>
-						<p>Compare to last month <span class="resultInfo resultUp">10% <i class="fa fa-level-up" aria-hidden="true"></i></span></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4 col-xs-12">
-				<div class="panel panel-default panel-card">
-					<div class="panel-heading">
-						Visits <span class="label label-primary">Today</span>
-					</div>
-					<div class="panel-body">
-						<h2>5,00,103</h2>
-						<p>Compare to yesterday <span class="resultInfo resultDown">5% <i class="fa fa-level-down" aria-hidden="true"></i></span></p>
+			<div class="row">
+				<h2 id="account-data-title-formatting">Account Data</h2>
+				<div class="col-sm-4 col-xs-12">
+					<div class="panel panel-default panel-card">
+						<div class="panel-heading">
+							Completed Transactions <span class="label label-primary">Monthly</span>
+						</div>
+						<div class="panel-body">
+							<h2>21</h2>
+							<p>Local Ranking <span class="resultInfo resultUp">2nd <i class="fa fa-level-up" aria-hidden="true"></i></span></p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-sm-4 col-xs-12">
-				<div class="panel panel-default panel-card">
-					<div class="panel-heading">
-						Search <span class="label label-primary">Today</span>
-					</div>
-					<div class="panel-body">
-						<h2>31,200</h2>
-						<p>Compare to yesterday <span class="resultInfo resultUp">10% <i class="fa fa-level-up"></i></span></p>
+				<div class="col-sm-4 col-xs-12">
+					<div class="panel panel-default panel-card">
+						<div class="panel-heading">
+							ETH Tokens <a href="" class="btn label label-primary">Get ETH</a>
+						</div>
+						<div class="panel-body">
+							<h2>2.38</h2>
+							<a href="" class="btn label label-primary">EtherScan</a>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12">
-				<div class="panel panel-default panel-card">
-					<div class="panel-heading">
-						Orders
-						<span class="rightContent">
-							<span class="dateRange">
-								<label>From:</label>
-								<div class="dateSelect">
-									<div class="input-group date ed-datepicker filterDate" data-provide="datepicker">
-										<input type="text" class="form-control" placeholder="mm/dd/yyyy">
-										<div class="input-group-addon">
-											<i class="fa fa-calendar" aria-hidden="true"></i>
-										</div>
-									</div>
-								</div>
-							</span>
-							<span class="dateRange">
-								<label>To:</label>
-								<div class="dateSelect">
-									<div class="input-group date ed-datepicker filterDate" data-provide="datepicker">
-										<input type="text" class="form-control" placeholder="mm/dd/yyyy">
-										<div class="input-group-addon">
-											<i class="fa fa-calendar" aria-hidden="true"></i>
-										</div>
-									</div>
-								</div>
-							</span>
-							<span class="btn-group btn-panel">
-								<button type="button" class="btn btn-primary active">Daily</button>
-								<button type="button" class="btn btn-primary">Weekly</button>
-								<button type="button" class="btn btn-primary">Monthly</button>
-							</span>
-						</span>
-					</div>
-					<div class="panel-body">
-						<div class="row">
-							<div class="col-sm-3 col-xs-12">
-								<div class="chartInfo">
-									<h2>2,450</h2>
-									<p>Total Orders</p>
-								</div>
-								<div class="chartInfo">
-									<h2>$50,500</h2>
-									<p>Total Payments</p>
-								</div>
-							</div>
-							<div class="col-sm-9 col-xs-12">
-								<div class="flot-chart">
-									<div class="flot-chart-content" id="flot-dashboard-chart"></div>
-								</div>
-
+				<div class="col-sm-4 col-xs-12">
+					<div class="panel panel-default panel-card">
+						<div class="panel-heading">
+							DEEP Tokens <a href="" class="btn label label-primary">Get DEEP from ETH</a>
+						</div>
+						<div class="panel-body">
+							<div>
+							<h2>103 337</h2>
+							<a href="" class="btn label label-primary">EtherScan</a>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+
+
+				<div class="col-xs-12">
+					<h2>Listing Orders</h2>
+					<div class="table-responsive bgAdd"  data-pattern="priority-columns">
+						<table id="ordersTable" class="table table-small-font table-bordered table-striped" cellspacing="0" width="100%">
+							<thead>
+								<tr>
+									<th>Order ID</th>
+									<th data-priority="">Requester</th>
+									<th data-priority="2">Amount</th>
+									<th data-priority="6">Shop</th>
+									<th data-priority="6">Date Added</th>
+									<th data-priority="3">Status</th>
+									<th data-priority="2">Action</th>
+								</tr>
+							</thead>
+							<tfoot>
+								<tr>
+									<th>Order ID</th>
+									<th>Customer</th>
+									<th>Amount</th>
+									<th>Date Added</th>
+									<th>Date Modified</th>
+									<th>Status</th>
+									<th>Action</th>
+								</tr>
+							</tfoot>
+							<tbody>
+								<tr>
+									<td>2475</td>
+									<td>FreeBandz123</td>
+									<td>$245.00</td>
+									<td>Gucci</td>
+									<td>15/12/2017</td>
+									<td><span class="label label-warning">Pending</span></td>
+									<td>
+										<div class="btn-group">
+											<button type="button" class="btn btn-primary">View</button>
+											<button type="button" class="btn btn-primary">Edit</button>
+											<button type="button" class="btn btn-primary">Delete</button>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>2472</td>
+									<td>TigerBapezzz44</td>
+									<td>$157.32</td>
+									<td>Gucci</td>
+									<td>15/12/2017</td>
+									<td><span class="label label-warning">Pending</span></td>
+									<td>
+										<div class="btn-group">
+											<button type="button" class="btn btn-primary">View</button>
+											<button type="button" class="btn btn-primary">Edit</button>
+											<button type="button" class="btn btn-primary">Delete</button>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>2470</td>
+									<td>lilPump2017</td>
+									<td>$189.75</td>
+									<td>Gucci</td>
+									<td>15/12/2017</td>
+									<td><span class="label label-success">Active</span></td>
+									<td>
+										<div class="btn-group">
+											<button type="button" class="btn btn-primary">View</button>
+											<button type="button" class="btn btn-primary">Edit</button>
+											<button type="button" class="btn btn-primary">Delete</button>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>2471</td>
+									<td>itsCardi</td>
+									<td>$374.44</td>
+									<td>Gucci</td>
+									<td>15/12/2017</td>
+									<td><span class="label label-danger">Canceled</span></td>
+									<td>
+										<div class="btn-group">
+											<button type="button" class="btn btn-primary">View</button>
+											<button type="button" class="btn btn-primary">Edit</button>
+											<button type="button" class="btn btn-primary">Delete</button>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>2472</td>
+									<td>Mapleee</td>
+									<td>$1454.33</td>
+									<td>Gucci</td>
+									<td>15/12/2017</td>
+									<td><span class="label label-success">Active</span></td>
+									<td>
+										<div class="btn-group">
+											<button type="button" class="btn btn-primary">View</button>
+											<button type="button" class="btn btn-primary">Edit</button>
+											<button type="button" class="btn btn-primary">Delete</button>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<div class="col-xs-12">
+						<h2>Your Requests</h2>
+						<div class="table-responsive bgAdd"  data-pattern="priority-columns">
+							<table id="ordersTable" class="table table-small-font table-bordered table-striped" cellspacing="0" width="100%">
+								<thead>
+									<tr>
+										<th>Order ID</th>
+										<th data-priority="">Provider</th>
+										<th data-priority="2">Amount</th>
+										<th data-priority="6">Shop</th>
+										<th data-priority="6">Meet Up Date</th>
+										<th data-priority="3">Status</th>
+										<th data-priority="2">Action</th>
+									</tr>
+								</thead>
+								<tfoot>
+									<tr>
+										<th>Order ID</th>
+										<th>Customer</th>
+										<th>Amount</th>
+										<th>Date Added</th>
+										<th>Date Modified</th>
+										<th>Status</th>
+										<th>Action</th>
+									</tr>
+								</tfoot>
+								<tbody>
+									<tr>
+										<td>2333</td>
+										<td>OracleX3</td>
+										<td>$267.03</td>
+										<td>Adidas</td>
+										<td>02/12/2017</td>
+										<td><span class="label label-warning">Pending</span></td>
+										<td>
+											<div class="btn-group">
+												<button type="button" class="btn btn-primary">View</button>
+												<button type="button" class="btn btn-primary">Edit</button>
+												<button type="button" class="btn btn-primary">Delete</button>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>2327</td>
+										<td>TRex27</td>
+										<td>$178.65</td>
+										<td>Fossil</td>
+										<td>31/11/2017</td>
+										<td><span class="label label-warning">Pending</span></td>
+										<td>
+											<div class="btn-group">
+												<button type="button" class="btn btn-primary">View</button>
+												<button type="button" class="btn btn-primary">Edit</button>
+												<button type="button" class="btn btn-primary">Delete</button>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>2317</td>
+										<td>CabarellosDeCali</td>
+										<td>$477.38</td>
+										<td>Salvatore Ferragamo</td>
+										<td>29/11/2017</td>
+										<td><span class="label label-success">Active</span></td>
+										<td>
+											<div class="btn-group">
+												<button type="button" class="btn btn-primary">View</button>
+												<button type="button" class="btn btn-primary">Edit</button>
+												<button type="button" class="btn btn-primary">Delete</button>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>2311</td>
+										<td>HaierBrotherDZ</td>
+										<td>$941.86</td>
+										<td>Trail Appliances</td>
+										<td>25/11/2017</td>
+										<td><span class="label label-danger">Canceled</span></td>
+										<td>
+											<div class="btn-group">
+												<button type="button" class="btn btn-primary">View</button>
+												<button type="button" class="btn btn-primary">Edit</button>
+												<button type="button" class="btn btn-primary">Delete</button>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>2472</td>
+										<td>HariboConsumer</td>
+										<td>$122</td>
+										<td>Sephora</td>
+										<td>21/11/2017</td>
+										<td><span class="label label-success">Active</span></td>
+										<td>
+											<div class="btn-group">
+												<button type="button" class="btn btn-primary">View</button>
+												<button type="button" class="btn btn-primary">Edit</button>
+												<button type="button" class="btn btn-primary">Delete</button>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
 		</div>
-		<div class="row">
-			<div class="col-sm-4 col-xs-12">
-				<div class="panel panel-default panel-card">
-					<div class="panel-heading">
-						Popular Listings <span class="label label-primary">Monthly</span>
-					</div>
-					<div class="panel-body plr">
-						<ul class="list-unstyled panel-list">
-							<li>
-								<div class="listWrapper">
-									<div class="listName">
-										<h3>Miku Toronto<small>by Adam Smith</small></h3>
-									</div>
-									<div class="listResult">
-										<ul class="list-inline rating">
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										</ul>
-										<span class="likePart"><i class="fa fa-heart-o primaryColor" aria-hidden="true"></i>10k</span>
-										<span class="likeResult">Visits: <strong>20,500</strong></span>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="listWrapper">
-									<div class="listName">
-										<h3>Miku Toronto<small>by Adam Smith</small></h3>
-									</div>
-									<div class="listResult">
-										<ul class="list-inline rating">
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										</ul>
-										<span class="likePart"><i class="fa fa-heart-o primaryColor" aria-hidden="true"></i>10k</span>
-										<span class="likeResult">Visits: <strong>20,500</strong></span>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="listWrapper">
-									<div class="listName">
-										<h3>Miku Toronto<small>by Adam Smith</small></h3>
-									</div>
-									<div class="listResult">
-										<ul class="list-inline rating">
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										</ul>
-										<span class="likePart"><i class="fa fa-heart-o primaryColor" aria-hidden="true"></i>10k</span>
-										<span class="likeResult">Visits: <strong>20,500</strong></span>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="listWrapper">
-									<div class="listName">
-										<h3>Miku Toronto<small>by Adam Smith</small></h3>
-									</div>
-									<div class="listResult">
-										<ul class="list-inline rating">
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										</ul>
-										<span class="likePart"><i class="fa fa-heart-o primaryColor" aria-hidden="true"></i>10k</span>
-										<span class="likeResult">Visits: <strong>20,500</strong></span>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="listWrapper">
-									<div class="listName">
-										<h3>Miku Toronto<small>by Adam Smith</small></h3>
-									</div>
-									<div class="listResult">
-										<ul class="list-inline rating">
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										</ul>
-										<span class="likePart"><i class="fa fa-heart-o primaryColor" aria-hidden="true"></i>10k</span>
-										<span class="likeResult">Visits: <strong>20,500</strong></span>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="listWrapper">
-									<div class="listName">
-										<h3>Miku Toronto<small>by Adam Smith</small></h3>
-									</div>
-									<div class="listResult">
-										<ul class="list-inline rating">
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-											<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										</ul>
-										<span class="likePart"><i class="fa fa-heart-o primaryColor" aria-hidden="true"></i>10k</span>
-										<span class="likeResult">Visits: <strong>20,500</strong></span>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4 col-xs-12">
-				<div class="panel panel-default panel-card">
-					<div class="panel-heading" id="categories">
-						Popular Categories <span class="label label-primary">Monthly</span>
-					</div>
-					<div class="panel-body plr">
-						<ul class="list-styled panel-list list-padding">
-							<li class="listWrapper"><span class="itmeName"><i class="icon-listy icon-tea-cup-1 iconBox"></i>Restaurants</span> <span class="itemSubmit">Submited List: <strong>250</strong></span></li>
-							<li class="listWrapper"><span class="itmeName"><i class="icon-listy icon-building iconBox"></i>Hotels</span> <span class="itemSubmit">Submited List: <strong>90</strong></span></li>
-							<li class="listWrapper"><span class="itmeName"><i class="icon-listy icon-juice iconBox"></i>Nightclubs</span> <span class="itemSubmit">Submited List: <strong>260</strong></span></li>
-							<li class="listWrapper"><span class="itmeName"><i class="icon-listy icon-car-1 iconBox"></i>Auto Motive</span> <span class="itemSubmit">Submited List: <strong>900</strong></span></li>
-							<li class="listWrapper"><span class="itmeName"><i class="icon-listy icon-castle iconBox"></i>Museums</span> <span class="itemSubmit">Submited List: <strong>20</strong></span></li>
-							<li class="listWrapper"><span class="itmeName"><i class="icon-listy icon-television iconBox"></i>Movie Theaters</span> <span class="itemSubmit">Submited List: <strong>150</strong></span></li>
-							<li class="listWrapper"><span class="itmeName"><i class="icon-listy icon-mall-1 iconBox"></i>Shopping</span> <span class="itemSubmit">Submited List: <strong>300</strong></span></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4 col-xs-12">
-				<div class="panel panel-default panel-card">
-					<div class="panel-heading">
-						Recent Users <span class="label label-primary">Daily</span>
-					</div>
-					<div class="panel-body plr">
-						<ul class="list-styled panel-list list-padding-sm">
-							<li  class="listWrapper"><span class="recentUserInfo"><img src="img/dashboard/recent-user-1.jpg" alt="Image User" class="img-circle">Adam Smith</span> <span class="userTime">Active 10m ago</span></li>
-							<li  class="listWrapper"><span class="recentUserInfo"><img src="img/dashboard/recent-user-2.jpg" alt="Image User" class="img-circle">Adam Smith</span> <span class="userTime">Active 12m ago</span></li>
-							<li  class="listWrapper"><span class="recentUserInfo"><img src="img/dashboard/recent-user-3.jpg" alt="Image User" class="img-circle">Adam Smith</span> <span class="userTime">Active 15m ago</span></li>
-							<li  class="listWrapper"><span class="recentUserInfo"><img src="img/dashboard/recent-user-4.jpg" alt="Image User" class="img-circle">Adam Smith</span> <span class="userTime">Active 17m ago</span></li>
-							<li  class="listWrapper"><span class="recentUserInfo"><img src="img/dashboard/recent-user-1.jpg" alt="Image User" class="img-circle">Adam Smith</span> <span class="userTime">Active 19m ago</span></li>
-							<li  class="listWrapper"><span class="recentUserInfo"><img src="img/dashboard/recent-user-2.jpg" alt="Image User" class="img-circle">Adam Smith</span> <span class="userTime">Active 14m ago</span></li>
-							<li  class="listWrapper"><span class="recentUserInfo"><img src="img/dashboard/recent-user-3.jpg" alt="Image User" class="img-circle">Adam Smith</span> <span class="userTime">Active 1h ago</span></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
+
+
+		<h2 id="account-data-title-formatting">Messages</h2>		
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="panel panel-default panel-card">
 					<div class="panel-heading" id="message">
-						Messages <span class="label label-default label-sm">3 New</span> <a href="" class="btn label label-primary">Send Message</a>
+						Messages <span class="label label-default label-sm">2 New</span> <a href="" class="btn label label-primary">Send Message</a>
 					</div>
 					<div class="panel-body panel-message">
 						<ul class="list-unstyled panel-list">
 							<li class="messageCommon recentMessage listWrapper">
 								<span class="messageInfo">
-									<h5>Rifat Abeer, <small>Today <span class="dayTime">11.08 AM</span></small></h5>
-									<p>Dear Sir, Confirming the order for the following items: LC Latex Classy Gents: 24 x 1200 = 28800, Suede Convers 02: 6 x 1200 = 7200</p>
+									<h5>FreeBandz123, <small>Today <span class="dayTime">11.08 AM</span></small></h5>
+									<p>Brand: Gucci <br> Requested item: Ace embroidered sneaker, Snake Design <br> Price: $245 <br> Product Code:‎456230 A38G0 9064 <br> Size: 9 US <br> Colour: White Leather</p>
 								</span>
 								<span class="messageTime">5m ago</span>
 							</li>
 							<li class="messageCommon recentMessage listWrapper">
 								<span class="messageInfo">
-									<h5>Rifat Abeer, <small>Today <span class="dayTime">11.08 AM</span></small></h5>
-									<p>Dear Sir, Confirming the order for the following items: LC Latex Classy Gents: 24 x 1200 = 28800, Suede Convers 02: 6 x 1200 = 7200</p>
+									<h5>TigerBapezzz44, <small>Today <span class="dayTime">10.04 AM</span></small></h5>
+									<p>Brand: Gucci <br> Requested item: Washed T-shirt with Gucci logo <br> Price: $157.32 <br> Product Code:‎‎440103 X3F05 1508 <br> Size: M <br> Colour: black washed cotton jersey</p>
 								</span>
-								<span class="messageTime">5m ago</span>
-							</li>
-							<li class="messageCommon recentMessage listWrapper">
-								<span class="messageInfo">
-									<h5>Rifat Abeer, <small>Today <span class="dayTime">11.08 AM</span></small></h5>
-									<p>Dear Sir, Confirming the order for the following items: LC Latex Classy Gents: 24 x 1200 = 28800, Suede Convers 02: 6 x 1200 = 7200</p>
-								</span>
-								<span class="messageTime">5m ago</span>
+								<span class="messageTime">1hr ago</span>
 							</li>
 							<li class="messageCommon oldMessage listWrapper">
 								<span class="messageInfo">
-									<h5>Rifat Abeer, <small>Today <span class="dayTime">11.08 AM</span></small></h5>
-									<p>Dear Sir, Confirming the order for the following items: LC Latex Classy Gents: 24 x 1200 = 28800, Suede Convers 02: 6 x 1200 = 7200</p>
+									<h5>lilPump2017, <small>Nov 10th <span class="dayTime">12.20 pm</span></small></h5>
+									<p>Brand: Gucci <br> Requested item: Reversible Gucci Signature belt <br> Price: $189.75 <br> Product Code:‎‎‎473030 CWCWN 1070 <br> Size: 70 <br> Colour: black Gucci Signature/brown leather</p>
 								</span>
-								<span class="messageTime">5m ago</span>
+								<span class="messageTime">23hr ago</span>
 							</li>
 							<li class="messageCommon oldMessage listWrapper">
 								<span class="messageInfo">
-									<h5>Rifat Abeer, <small>Today <span class="dayTime">11.08 AM</span></small></h5>
-									<p>Dear Sir, Confirming the order for the following items: LC Latex Classy Gents: 24 x 1200 = 28800, Suede Convers 02: 6 x 1200 = 7200</p>
+									<h5>itsCardi, <small>Nov 10th <span class="dayTime">9.55 AM</span></small></h5>
+									<p>Brand: Gucci <br> Requested item: Leather pump with bow <br> Price: $374.44 <br> Product Code:‎‎496590 BKO00 6433 <br> Size: 6 US <br> Colour: hibiscus red leather</p>
 								</span>
-								<span class="messageTime">5m ago</span>
+								<span class="messageTime">1d ago</span>
 							</li>
 							<li class="messageCommon oldMessage listWrapper">
 								<span class="messageInfo">
-									<h5>Rifat Abeer, <small>Today <span class="dayTime">11.08 AM</span></small></h5>
-									<p>Dear Sir, Confirming the order for the following items: LC Latex Classy Gents: 24 x 1200 = 28800, Suede Convers 02: 6 x 1200 = 7200</p>
+									<h5>Mapleee, <small>Nov 8th <span class="dayTime">7.15 PM</span></small></h5>
+									<p>Brand: Gucci <br> Requested item: Dionysus small GG Blooms shoulder bag <br> Price: $157.32 <br> Product Code:‎‎‎400249 KU23N 8693 <br> Size: N/A <br> Colour: blooms print</p>
 								</span>
-								<span class="messageTime">5m ago</span>
+								<span class="messageTime">2d ago</span>
 							</li>
 						</ul>
 					</div>

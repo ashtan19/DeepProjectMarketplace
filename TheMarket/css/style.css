@@ -5766,7 +5766,91 @@ figure:hover .overlay {
 
 .priceTableSection {
   padding: 50px 0;
+  text-align: center;
 }
+
+.priceTableSection h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+#about-us-features {
+  margin: 0 auto;
+}
+.features-right div {
+  text-align: center;
+}
+.features-right .feature-single {
+  margin-bottom: 0px;
+}
+.features-right .feature-single:last-child {
+  margin-bottom: 0;
+}
+.features-right .feature-single .feature-icon,
+.features-right .feature-single .feature-info {
+  display: table-cell;
+  vertical-align: top;
+}
+.features-right .feature-single .feature-icon span {
+  display: block;
+  font-size: 28px;
+  height: 70px;
+  padding-top: 15px;
+  text-align: center;
+  width: 70px;
+  position: relative;
+  transition: 0.3s ease;
+  z-index: 1;
+  color: #3333cc;
+}
+.features-right .feature-single .feature-icon span:before {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+  content: "";
+  height: 70px;
+  position: absolute;
+  width: 70px;
+  left: 0;
+  top: 0;
+  border-radius: 35px 35px 0 35px;
+  -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+  transition: 0.3s ease;
+  z-index: -1;
+}
+.features-right .feature-single .feature-info {
+  padding-left: 25px;
+}
+.features-right .feature-single .feature-info h3 {
+  margin: 0 0 10px 0;
+}
+#ethereum-blockchain {
+  padding-bottom: 50px;
+}
+#ether-smart-contract {
+  padding-bottom: 30px;
+}
+#double-deposit-escrow {
+  padding-bottom: 20px;
+}
+#confido-secure-tracking {
+  padding-bottom: 20px;
+}
+#whisper-anonymous-chat {
+  padding-bottom: 30px;
+}
+.features-right .feature-single .feature-info {
+  padding-left: 25px;
+}
+.features-right .feature-single:hover .feature-icon span {
+  color: #f2f2f2;
+}
+.features-right .feature-single:hover .feature-icon span:before {
+  background: #3333cc;
+}
+
+
+
 
 @media (min-width: 768px) {
   .priceTableSection {
@@ -6983,6 +7067,11 @@ table.dataTable thead .sorting_desc_disabled:after {
 }
 
 /*================= 10.4 DASHBOARD BOX ==================*/
+
+.dashboardSection .row #account-data-title-formatting {
+  margin: 15px;
+}
+
 .panel-card {
   border-color: #e5e5e5;
   margin: 0 0 30px 0;
@@ -7010,6 +7099,17 @@ table.dataTable thead .sorting_desc_disabled:after {
   margin-top: 13px;
 }
 
+/* DEEP and ETH button in Dashboard */
+.panel-card .panel-heading button {
+  font-family: 'Muli', sans-serif;
+  font-size: 12px;
+  float: right;
+  padding: 3px 9px;
+  font-weight: 400;
+  margin-top: 13px;
+  background-color: #2196f3;
+}
+
 .panel-card .panel-heading .label.label-primary {
   background-color: #2196f3;
 }
@@ -7032,16 +7132,29 @@ table.dataTable thead .sorting_desc_disabled:after {
   color: #848484;
   font-family: 'Muli', sans-serif;
   font-weight: 300;
-  margin: 0 0 12px 0;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .panel-card .panel-body p {
   margin: 0;
+  border-radius: 5px;
 }
 
 .panel-card .panel-body .resultInfo {
   float: right;
   font-size: 15px;
+}
+
+.panel-card .panel-body a {
+  background-color: #eee;
+  text-align: center;
+  margin: 31%;
+  height: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .panel-card .panel-body .resultInfo.resultUp {

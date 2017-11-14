@@ -321,7 +321,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 100px 0;
+    padding: 50px 0;
   }
 }
 
@@ -1142,8 +1142,8 @@ a.link:hover {
 
 .paginationCommon .pagination li a:hover {
   color: #ffffff;
-  background-color: #2196f3;
-  border-color: #2196f3;
+  background-color: #3333cc;
+  border-color: #3333cc;
 }
 
 .paginationCommon .pagination li a:focus {
@@ -1158,8 +1158,8 @@ a.link:hover {
 
 .paginationCommon .pagination li.active a, .paginationCommon .pagination li.active a:focus, .paginationCommon .pagination li.active a:hover {
   color: #ffffff;
-  background-color: #2196f3;
-  border-color: #2196f3;
+  background-color: #3333cc;
+  border-color: #3333cc;
 }
 
 .paginationCommon .pagination li:first-child a {
@@ -3495,7 +3495,7 @@ footer {
 }
 
 .footerWhite #footerSpacingFix {
-  margin: 0px 0px 0px 50px;
+  float: right;
 }
 
 /*================= 5.1 BANNER SECTION ==================*/
@@ -3570,7 +3570,7 @@ footer {
 }
 
 .banerInfo .input-group-addon i.icon-listy {
-  color: #2196f3;
+  color: #3333cc;
   font-weight: 700;
 }
 
@@ -5081,6 +5081,7 @@ figure:hover .overlay {
   padding-bottom: 15px;
   margin-bottom: 25px;
   border-bottom: 1px solid #e5e5e5;
+  width: 830px;
 }
 
 .resultBar h2 {
@@ -6137,6 +6138,12 @@ input[type=radio]:focus,
   border: none;
   padding: 7px 0;
 }
+
+.sidebarInner.sidebarCategory .categoryList li a:hover {
+  color: #3333cc;
+}
+
+
 
 /*================= 9.2 BLOG DETAILS ==================*/
 .blogContent {
@@ -8576,6 +8583,52 @@ body.rtl .checkbox .pull-right.link {
 }/*#DIV_3:after*/
 
 #DIV_3:before {
+  box-sizing: border-box;
+  color: rgb(123, 123, 123);
+  display: table;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  column-rule-color: rgb(123, 123, 123);
+  caret-color: rgb(123, 123, 123);
+  border: 0px none rgb(123, 123, 123);
+  font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
+  outline: rgb(123, 123, 123) none 0px;
+}/*#DIV_3:before*/
+
+
+/* This is for the catagory-grid-right cards, to make them rows of 3 instead of 4 */
+#DIV_3DetailPage {
+  box-sizing: border-box;
+  color: rgb(123, 123, 123);
+  height: 707.778px;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  width: 970px;
+  column-rule-color: rgb(123, 123, 123);
+  perspective-origin: 585px 353.889px;
+  transform-origin: 585px 353.889px;
+  caret-color: rgb(123, 123, 123);
+  border: 0px none rgb(123, 123, 123);
+  font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
+  margin: 0px -15px;
+  outline: rgb(123, 123, 123) none 0px;
+}/*#DIV_3*/
+
+#DIV_3DetailPage:after {
+  box-sizing: border-box;
+  clear: both;
+  color: rgb(123, 123, 123);
+  display: table;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  column-rule-color: rgb(123, 123, 123);
+  caret-color: rgb(123, 123, 123);
+  border: 0px none rgb(123, 123, 123);
+  font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
+  outline: rgb(123, 123, 123) none 0px;
+}/*#DIV_3:after*/
+
+#DIV_3DetailPage:before {
   box-sizing: border-box;
   color: rgb(123, 123, 123);
   display: table;

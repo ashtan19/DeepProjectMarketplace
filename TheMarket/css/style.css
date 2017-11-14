@@ -321,7 +321,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 100px 0;
+    padding: 50px 0;
   }
 }
 
@@ -1142,8 +1142,8 @@ a.link:hover {
 
 .paginationCommon .pagination li a:hover {
   color: #ffffff;
-  background-color: #2196f3;
-  border-color: #2196f3;
+  background-color: #3333cc;
+  border-color: #3333cc;
 }
 
 .paginationCommon .pagination li a:focus {
@@ -1158,8 +1158,8 @@ a.link:hover {
 
 .paginationCommon .pagination li.active a, .paginationCommon .pagination li.active a:focus, .paginationCommon .pagination li.active a:hover {
   color: #ffffff;
-  background-color: #2196f3;
-  border-color: #2196f3;
+  background-color: #3333cc;
+  border-color: #3333cc;
 }
 
 .paginationCommon .pagination li:first-child a {
@@ -2207,8 +2207,8 @@ a.link:hover {
 }
 
 .navbar-nav li.dropdown.megaDropMenu .dropdown-menu .mega-img a {
-  padding: 10px;
   background-color: transparent;
+  margin: 0px;
 }
 
 .navbar-nav li.dropdown.megaDropMenu .dropdown-menu .currently-in {
@@ -2263,10 +2263,6 @@ a.link:hover {
 
 .navbar-nav li.dropdown.megaDropMenu .dropdown-menu .list-unstyled li a:hover {
   color: #3333cc;
-}
-
-.navbar-nav li.dropdown.megaDropMenu .dropdown-menu .list-unstyled li:nth-child(4) a {
-  padding-bottom: 20px;
 }
 
 .nav-wrapper .navbar-nav li.open.megaDropMenu .dropdown-menu,
@@ -2433,6 +2429,8 @@ a.link:hover {
 .navbar-nav li.dropdown.singleDrop .dropdown-menu li .dropdown-menu li a:hover {
   padding-left: 25px;
 }
+
+
 
 @media (min-width: 768px) {
   .navbar-nav li.dropdown.singleDrop .dropdown-menu li.open .dropdown-menu {
@@ -3104,9 +3102,13 @@ a.link:hover {
 
 /*=== 3.3 NAVBAR  ===*/
 
+#menuBar #addMoveRightOnHover:hover {
+  padding-left: 25px;
+}
+
 #menuBar #navBarHeaderMarginFix {
   margin: 0px;
-  color: #616161;
+  color: #333;
   font-family: "Poppins",sans-serif;
   font-weight: 600;
 }
@@ -3116,6 +3118,9 @@ a.link:hover {
   transition: all 0.3s ease-in-out;  
 }
 
+#menuBar #fixChangeButton {
+  margin: -10px 0px 10px 0px;
+}
 
 
 
@@ -3459,7 +3464,7 @@ footer {
 }
 
 .footerWhite .useLink ul li a:hover {
-  color: #2196f3;
+  color: #3333cc;
 }
 
 .footerWhite .copyRightText p {
@@ -3487,6 +3492,10 @@ footer {
 
 .footerWhite .copyRightWrapper {
   border-top-color: #e5e5e5;
+}
+
+.footerWhite #footerSpacingFix {
+  float: right;
 }
 
 /*================= 5.1 BANNER SECTION ==================*/
@@ -3561,7 +3570,7 @@ footer {
 }
 
 .banerInfo .input-group-addon i.icon-listy {
-  color: #2196f3;
+  color: #3333cc;
   font-weight: 700;
 }
 
@@ -3790,7 +3799,30 @@ footer {
 }
 
 /*================= 5.6 THINGS SECTION ==================*/
+.thingsArea #fixMargins {
+margin: 0px 20px 0px 0px;
+}
 
+
+.thingsArea #seeMoreButtonDiv {
+  height: 30px;
+}
+
+.thingsArea #seeMoreButton {
+  float: right; 
+  display:inline-block;  
+  padding: 0px;
+  margin: 0px;
+  color: #848484;
+}
+
+.thingsArea #seeMoreButton:hover {
+  float: right; 
+  display:inline-block;  
+  padding: 0px;
+  margin: 0px;
+  color: #3333cc;
+}
 .thingsArea {
   background-color: #f2f2f2;
 }
@@ -3967,6 +3999,7 @@ footer {
 .thingsBox.thinsSpace {
   margin: 15px 0;
 }
+
 
 .rating {
   margin-bottom: 2px;
@@ -4422,6 +4455,7 @@ footer {
   line-height: 50px;
   border-radius: 0;
   background-color: #f8f8f8;
+  color: #333;
 }
 
 .bg-search-white .form-group .searchSelectbox .sbHolder {
@@ -4973,7 +5007,7 @@ figure:hover .overlay {
 
 @media (min-width: 768px) {
   .servicesSection {
-    padding: 0 0 100px 0;
+    padding: 0 0 20px 0;
   }
 }
 
@@ -5047,6 +5081,7 @@ figure:hover .overlay {
   padding-bottom: 15px;
   margin-bottom: 25px;
   border-bottom: 1px solid #e5e5e5;
+  width: 830px;
 }
 
 .resultBar h2 {
@@ -6103,6 +6138,12 @@ input[type=radio]:focus,
   border: none;
   padding: 7px 0;
 }
+
+.sidebarInner.sidebarCategory .categoryList li a:hover {
+  color: #3333cc;
+}
+
+
 
 /*================= 9.2 BLOG DETAILS ==================*/
 .blogContent {
@@ -8554,6 +8595,52 @@ body.rtl .checkbox .pull-right.link {
   outline: rgb(123, 123, 123) none 0px;
 }/*#DIV_3:before*/
 
+
+/* This is for the catagory-grid-right cards, to make them rows of 3 instead of 4 */
+#DIV_3DetailPage {
+  box-sizing: border-box;
+  color: rgb(123, 123, 123);
+  height: 707.778px;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  width: 970px;
+  column-rule-color: rgb(123, 123, 123);
+  perspective-origin: 585px 353.889px;
+  transform-origin: 585px 353.889px;
+  caret-color: rgb(123, 123, 123);
+  border: 0px none rgb(123, 123, 123);
+  font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
+  margin: 0px -15px;
+  outline: rgb(123, 123, 123) none 0px;
+}/*#DIV_3*/
+
+#DIV_3DetailPage:after {
+  box-sizing: border-box;
+  clear: both;
+  color: rgb(123, 123, 123);
+  display: table;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  column-rule-color: rgb(123, 123, 123);
+  caret-color: rgb(123, 123, 123);
+  border: 0px none rgb(123, 123, 123);
+  font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
+  outline: rgb(123, 123, 123) none 0px;
+}/*#DIV_3:after*/
+
+#DIV_3DetailPage:before {
+  box-sizing: border-box;
+  color: rgb(123, 123, 123);
+  display: table;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  column-rule-color: rgb(123, 123, 123);
+  caret-color: rgb(123, 123, 123);
+  border: 0px none rgb(123, 123, 123);
+  font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
+  outline: rgb(123, 123, 123) none 0px;
+}/*#DIV_3:before*/
+
 #DIV_4, #DIV_54, #DIV_104, #DIV_154, #DIV_204, #DIV_254, #DIV_304, #DIV_354 {
   bottom: 0px;
   box-sizing: border-box;
@@ -8620,13 +8707,18 @@ body.rtl .checkbox .pull-right.link {
   perspective-origin: 131.25px 161.944px;
   transform-origin: 131.25px 161.944px;
   caret-color: rgb(255, 255, 255);
-  background: rgb(0, 141, 239) none repeat scroll 0% 0% / auto padding-box border-box;
+  background: #3333cc none repeat scroll 0% 0% / auto padding-box border-box;
   border: 0px none rgb(255, 255, 255);
   border-radius: 5px 5px 5px 5px;
   font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
   outline: rgb(255, 255, 255) none 0px;
   transition: all 0.8s ease 0s;
 }/*#DIV_6, #DIV_56, #DIV_106, #DIV_156, #DIV_206, #DIV_256, #DIV_306, #DIV_356*/
+
+#DIV_6:hover, #DIV_56:hover, #DIV_106:hover, #DIV_156:hover, #DIV_206:hover, #DIV_256:hover, #DIV_306:hover, #DIV_356:hover {
+  opacity: 1;
+}
+  
 
 #DIV_7, #DIV_57, #DIV_107, #DIV_157, #DIV_207, #DIV_257, #DIV_307, #DIV_357 {
   box-sizing: border-box;
@@ -8645,6 +8737,10 @@ body.rtl .checkbox .pull-right.link {
   overflow: hidden;
   padding: 45px 25px 40px;
 }/*#DIV_7, #DIV_57, #DIV_107, #DIV_157, #DIV_207, #DIV_257, #DIV_307, #DIV_357*/
+
+#DIV_7:hover, #DIV_57:hover, #DIV_107:hover, #DIV_157:hover, #DIV_207:hover, #DIV_257:hover, #DIV_307:hover, #DIV_357:hover {
+  opacity: 1;  
+}  
 
 #A_8, #A_158, #A_308 {
   bottom: 0px;
@@ -8757,7 +8853,7 @@ body.rtl .checkbox .pull-right.link {
   column-rule-color: rgb(255, 255, 255);
   caret-color: rgb(255, 255, 255);
   border: 0px none rgb(255, 255, 255);
-  font: normal normal 500 normal 14px / 20px "Varela Round", sans-serif;
+  font: normal normal 500 normal 10px / 10px "Varela Round", sans-serif;
   outline: rgb(255, 255, 255) none 0px;
   transition: all 0.5s ease 0s;
 }/*#A_12, #A_62, #A_112, #A_162, #A_212, #A_262, #A_312, #A_363*/
@@ -8822,7 +8918,7 @@ body.rtl .checkbox .pull-right.link {
 #I_15:before, #I_65:before, #I_115:before, #I_165:before, #I_215:before, #I_265:before, #I_315:before, #I_366:before {
   box-sizing: border-box;
   color: rgb(255, 255, 255);
-  content: '""';
+  content: '';
   text-align: left;
   text-decoration: none solid rgb(255, 255, 255);
   text-size-adjust: 100%;
@@ -8857,7 +8953,7 @@ body.rtl .checkbox .pull-right.link {
 #I_17:before, #I_67:before, #I_117:before, #I_167:before, #I_217:before, #I_267:before, #I_317:before, #I_368:before {
   box-sizing: border-box;
   color: rgb(255, 255, 255);
-  content: '""';
+  content: '';
   text-align: left;
   text-decoration: none solid rgb(255, 255, 255);
   text-size-adjust: 100%;
@@ -8892,7 +8988,7 @@ body.rtl .checkbox .pull-right.link {
 #I_19:before, #I_69:before, #I_119:before, #I_169:before, #I_219:before, #I_269:before, #I_319:before, #I_370:before {
   box-sizing: border-box;
   color: rgb(255, 255, 255);
-  content: '""';
+  content: '';
   text-align: left;
   text-decoration: none solid rgb(255, 255, 255);
   text-size-adjust: 100%;
@@ -8917,7 +9013,7 @@ body.rtl .checkbox .pull-right.link {
   border: 0px none rgb(255, 255, 255);
   font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
   list-style: none outside none;
-  margin: 35px 0px 30px;
+  margin: -10px 0px 0px 0px;
   outline: rgb(255, 255, 255) none 0px;
   padding: 0px;
 }/*#UL_20, #UL_70, #UL_120, #UL_170, #UL_220, #UL_270, #UL_320, #UL_371*/
@@ -8997,6 +9093,7 @@ body.rtl .checkbox .pull-right.link {
   list-style: none outside none;
   outline: rgb(0, 141, 239) none 0px;
   transition: all 0.5s ease 0s;
+  
 }/*#A_22:before, #A_25:before, #A_28:before, #A_72:before, #A_75:before, #A_78:before, #A_122:before, #A_125:before, #A_128:before, #A_172:before, #A_175:before, #A_178:before, #A_222:before, #A_225:before, #A_228:before, #A_272:before, #A_275:before, #A_278:before, #A_322:before, #A_325:before, #A_328:before, #A_373:before, #A_376:before, #A_379:before*/
 
 #I_23, #I_73, #I_123, #I_173, #I_223, #I_273, #I_323, #I_374 {
@@ -9021,7 +9118,7 @@ body.rtl .checkbox .pull-right.link {
 #I_23:before, #I_73:before, #I_123:before, #I_173:before, #I_223:before, #I_273:before, #I_323:before, #I_374:before {
   box-sizing: border-box;
   color: rgb(255, 255, 255);
-  content: '""';
+  content: '';
   text-align: center;
   text-decoration: none solid rgb(255, 255, 255);
   text-size-adjust: 100%;
@@ -9074,7 +9171,7 @@ body.rtl .checkbox .pull-right.link {
 #I_26:before, #I_76:before, #I_126:before, #I_176:before, #I_226:before, #I_276:before, #I_326:before, #I_377:before {
   box-sizing: border-box;
   color: rgb(255, 255, 255);
-  content: '""';
+  content: '';
   text-align: center;
   text-decoration: none solid rgb(255, 255, 255);
   text-size-adjust: 100%;
@@ -9108,7 +9205,7 @@ body.rtl .checkbox .pull-right.link {
 #I_29:before, #I_79:before, #I_129:before, #I_179:before, #I_229:before, #I_279:before, #I_329:before, #I_380:before {
   box-sizing: border-box;
   color: rgb(255, 255, 255);
-  content: '""';
+  content: '';
   text-align: center;
   text-decoration: none solid rgb(255, 255, 255);
   text-size-adjust: 100%;
@@ -9153,7 +9250,7 @@ body.rtl .checkbox .pull-right.link {
   bottom: 0px;
   box-sizing: border-box;
   color: rgb(0, 141, 239);
-  content: '""';
+  content: '';
   display: block;
   height: 33.0208px;
   left: 0px;
@@ -9201,7 +9298,7 @@ body.rtl .checkbox .pull-right.link {
 #I_32:before, #I_82:before, #I_132:before, #I_182:before, #I_232:before, #I_282:before, #I_332:before, #I_383:before {
   box-sizing: border-box;
   color: rgb(0, 141, 239);
-  content: '""';
+  content: '';
   text-align: center;
   text-decoration: none solid rgb(0, 141, 239);
   text-size-adjust: 100%;

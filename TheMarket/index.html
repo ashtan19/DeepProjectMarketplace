@@ -89,22 +89,22 @@
                     <ul class="row dropdown-menu">
                       <li class="col-sm-6 col-xs-12">
                         <ul class="list-unstyled">
-                            <li><a href="category-grid-right.html"><h5 id="navBarHeaderMarginFix">Top Listings In Vancouver</h5></a></li>
-                            <li><a href="category-grid-right.html"><h5 id="navBarHeaderMarginFix">Most Recent Listings</h5></a></li>
-							<li><a href="category-grid-right.html">Electronics</a></li> 
-							<li><a href="category-grid-full.html">Fashion</a></li>
-                            <li><a href="category-list-right.html">Home Appliances</a></li>
-							<li><a href="category-list-full.html">Services</a></li>
-							<li><a href="category-list-full.html">Events and Tickets</a></li>
-							<li><a href="category-list-full.html">Vehicles</a></li>							
+                            <li><a href="category-grid-right.html" id="addMoveRightOnHover"><h5 id="navBarHeaderMarginFix">Top Listings In Vancouver</h5></a></li>
+                            <li><a href="category-grid-right.html" id="addMoveRightOnHover"><h5 id="navBarHeaderMarginFix">Most Recent Listings</h5></a></li>
+							<li><a href="category-grid-right.html" id="addMoveRightOnHover">Electronics</a></li> 
+							<li><a href="category-grid-full.html" id="addMoveRightOnHover">Fashion</a></li>
+                            <li><a href="category-list-right.html" id="addMoveRightOnHover">Home Appliances</a></li>
+							<li><a href="category-list-full.html" id="addMoveRightOnHover">Services</a></li>
+							<li><a href="category-list-full.html" id="addMoveRightOnHover">Events and Tickets</a></li>
+							<li><a href="category-list-full.html" id="addMoveRightOnHover">Vehicles</a></li>							
                         </ul>
                       </li>
             
                       <li class="col-sm-6 col-xs-12">
                         <ul class="list-unstyled">
-                            <li class="mega-img"> <a href=""><img src="img/works/works-big-3.png" alt=""></a> </li> 
-							<li class="currently-in"> <a href=""> <h3>Currently in: Vancouver</h3> </a> </li>
-							<li class="change-currently-in"> <a href="listing-details-left.html">Change</a> </li> 
+                            <li class="mega-img"> <a href=""><img src="img/listing/FinalGlobeSpeed.gif" alt=""></a> </li> 
+							<li class="currently-in"> <h3>Currently in: Vancouver</h3> </li>
+							<li class="change-currently-in"> <a href="listing-details-left.html" id="fixChangeButton">Change</a> </li> 
 						</ul>
 					  </li>
 					
@@ -112,7 +112,7 @@
 				</li>
                   
                   <li class=""><a href="blog.html">Messages </a></li>
-                  <li class=" dropdown singleDrop">
+                  <li class="dropdown singleDrop">
                     <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Account <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <ul class="dropdown-menu dropdown-menu-right">
                       <li><a href="dashboard.html">Dashboard</a></li>
@@ -303,7 +303,12 @@
 		<div class="page-header text-center">
 			<h2>Popular Listings Near You <small>Here Are The Most Popular Listings in Vancouver</small></h2>
 		</div>
-		<div class="row">
+		
+		<div id="seeMoreButtonDiv">
+			<a href=""id="seeMoreButton">See More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+		</div>
+
+		<div class="row" id="fixMargins">
 				<div id="DIV_1">
 						<div id="DIV_2">
 							<div id="DIV_3">
@@ -311,16 +316,16 @@
 									<div id="DIV_5">
 										<div id="DIV_6">
 											<div id="DIV_7">
-												 <a href="#" id="A_8">Full Time</a> <span id="SPAN_9"> <a href="job-details.html" id="A_10">Project Manager</a> <span id="SPAN_11"><a href="#" id="A_12">Dig File</a></span></span>
+												 <a href="#" id="A_8">Apparal</a> <span id="SPAN_9"> <a href="job-details.html" id="A_10">Skoopnou</a> <span id="SPAN_11"><a href="#" id="A_12">6551 No 3 Rd #1726, Richmond, BC V6Y 2B6</a></span></span>
 												<ul id="UL_13">
 													<li id="LI_14">
-														<i id="I_15"></i>San Francisco, CA, US
+														<i id="I_15"></i>Nov 30th 2017 5.00pm
 													</li>
 													<li id="LI_16">
-														<i id="I_17"></i>Mid Level
+														<i id="I_17"></i>Nov 31th 2017 12:00pm
 													</li>
 													<li id="LI_18">
-														<i id="I_19"></i>$5,000 - $6,000
+														<i id="I_19"></i>December 1st 2017 5.00pm
 													</li>
 												</ul>
 												<ul id="UL_20">
@@ -341,7 +346,7 @@
 										</div>
 										<div id="DIV_33">
 											<div id="DIV_34">
-												<img src="../TheMarket/img/listing/LouisVuittonLogo.png" alt="images" id="IMG_35" />
+												<img src="img/listing/LouisVuittonLogo.png" alt="images" id="IMG_35" />
 											</div> <span id="SPAN_36"> <a href="#" id="A_37">Louis Vuitton</a> <span id="SPAN_38"><a href="#" id="A_39">35% OFF</a></span></span>
 											<ul id="UL_40">
 												<li id="LI_41">
@@ -394,7 +399,7 @@
 										</div>
 										<div id="DIV_83">
 											<div id="DIV_84">
-												<img src="../TheMarket/img/listing/BestBuyLogo.png" alt="images" id="IMG_85" />
+												<img src="img/listing/BestBuyLogo.png" alt="images" id="IMG_85" />
 											</div> <span id="SPAN_86"> <a href="#" id="A_87">Best Buy</a> <span id="SPAN_88"><a href="#" id="A_89">Cost + 5%</a></span></span>
 											<ul id="UL_90">
 												<li id="LI_91">
@@ -447,7 +452,7 @@
 										</div>
 										<div id="DIV_133">
 											<div id="DIV_134">
-												<img src="../TheMarket/img/listing/TiffanyAndCoLogo.png" alt="images" id="IMG_135" />
+												<img src="img/listing/TiffanyLogo.png" alt="images" id="IMG_135" />
 											</div> <span id="SPAN_136"> <a href="#" id="A_137">Tiffany and Co</a> <span id="SPAN_138"><a href="#" id="A_139">40% OFF</a></span></span>
 											<ul id="UL_140">
 												<li id="LI_141">
@@ -500,7 +505,7 @@
 										</div>
 										<div id="DIV_183">
 											<div id="DIV_184">
-												<img src="../TheMarket/img/listing/FossilLogo.png" alt="images" id="IMG_185" />
+												<img src="img/listing/FossilLogo.png" alt="images" id="IMG_185" />
 											</div> <span id="SPAN_186"> <a href="#" id="A_187">Fossil</a> <span id="SPAN_188"><a href="#" id="A_189">50% OFF</a></span></span>
 											<ul id="UL_190">
 												<li id="LI_191">
@@ -553,7 +558,7 @@
 										</div>
 										<div id="DIV_233">
 											<div id="DIV_234">
-												<img src="../TheMarket/img/listing/NikeLogo.png" alt="images" id="IMG_235" />
+												<img src="img/listing/NikeLogo.png" alt="images" id="IMG_235" />
 											</div> <span id="SPAN_236"> <a href="#" id="A_237">Nike</a> <span id="SPAN_238"><a href="#" id="A_239">30 - 50% OFF</a></span></span>
 											<ul id="UL_240">
 												<li id="LI_241">
@@ -606,7 +611,7 @@
 										</div>
 										<div id="DIV_283">
 											<div id="DIV_284">
-												<img src="../TheMarket/img/listing/SephoraLogo.jpg" alt="images" id="IMG_285" />
+												<img src="img/listing/SephoraLogo2.jpg" alt="images" id="IMG_285" />
 											</div> <span id="SPAN_286"> <a href="#" id="A_287">Sephora</a> <span id="SPAN_288"><a href="#" id="A_289">30 - 50% OFF</a></span></span>
 											<ul id="UL_290">
 												<li id="LI_291">
@@ -659,7 +664,7 @@
 										</div>
 										<div id="DIV_333">
 											<div id="DIV_334">
-												<img src="../TheMarket/img/listing/NordstromLogo.png" alt="images" id="IMG_335" />
+												<img src="img/listing/NordstromLogo.png" alt="images" id="IMG_335" />
 											</div> <span id="SPAN_336"> <a href="#" id="A_337">Nordstrom</a> <span id="SPAN_338"><a href="#" id="A_339">70% Off Mens Apparal</a></span></span>
 											<ul id="UL_340">
 												<li id="LI_341">
@@ -712,7 +717,7 @@
 										</div>
 										<div id="DIV_384">
 											<div id="DIV_385">
-												<img src="../TheMarket/img/listing/LushLogo.png" alt="images" id="IMG_386" />
+												<img src="img/listing/LushLogo.png" alt="images" id="IMG_386" />
 											</div> <span id="SPAN_387"> <a href="#" id="A_388">Lush</a> <span id="SPAN_389"><a href="#" id="A_390">35% OFF</a></span></span>
 											<ul id="UL_391">
 												<li id="LI_392">
@@ -1653,39 +1658,24 @@
           <div class="row">
             <div class="col-sm-7 col-xs-12">
               <div class="footerText">
-                <a href="index.html" class="footerLogo"><img src="img/logo-blue.png" alt="Footer Logo"></a>
+                <a href="index.html" class="footerLogo"><h1>DEEP</h1></a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
                 <ul class="list-styled list-contact">
-                  <li><i class="fa fa-phone" aria-hidden="true"></i>[88] 657 524 332</li>
-                  <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#">info@listy.com</a></li>
+                  <li><i class="fa fa-phone" aria-hidden="true"></i>778-321-7318</li>
+                  <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#">info@deepdiscounts.com</a></li>
                 </ul>
               </div>
             </div>
-            <div class="col-sm-3 col-xs-12">
+            <div class="col-sm-2 col-xs-12" id="footerSpacingFix">
               <div class="footerInfoTitle">
                 <h4>Links</h4>
               </div>
               <div class="useLink">
                 <ul class="list-unstyled">
-                  <li><a href="dashboard.html">Dashboard</a></li>
-                  <li><a href="sign-up.html">Create Account</a></li>
-                  <li><a href="login.html">Login</a></li>
-                  <li><a href="add-listings.html">Add Listing</a></li>
-                  <li><a href="edit-listings.html">Edit Listing</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-sm-2 col-xs-12">
-              <div class="footerInfoTitle">
-                <h4>Company</h4>
-              </div>
-              <div class="useLink">
-                <ul class="list-unstyled">
-                  <li><a href="contact-us.html">Contact Us</a></li>
-                  <li><a href="terms-of-services.html">Terms and Conditions</a></li>
-                  <li><a href="how-it-works.html">How It Works</a></li>
-                  <li><a href="payment-process.html">Payment</a></li>
-                  <li><a href="pricing-table.html">Pricing</a></li>
+                  <li><a href="contact-us.html">Help</a></li>
+                  <li><a href="terms-of-services.html">FAQ</a></li>
+                  <li><a href="how-it-works.html">Terms Of Use</a></li>
+                  <li><a href="payment-process.html">Privacy Policy</a></li>
                 </ul>
               </div>
             </div>

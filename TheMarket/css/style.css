@@ -6653,6 +6653,36 @@ input[type=radio]:focus,
   }
 }
 
+/* Profile Change Buttons */
+.profileSection .profileIntro .input-group-btn button{
+  color: #fff;
+  background: #3333cc;
+  border-radius: 4px;
+  margin: -1px;
+  transition: all 0.3s ease-in-out;
+}
+
+.profileSection .profileIntro .input-group-btn button:hover{
+  color: #fff;
+  background: #333;
+  border-radius: 4px;
+  margin: -1px;
+}
+
+.profileSection .profileIntro .input-group-addon a {
+  color: #fff;
+}
+.profileSection .profileIntro .input-group-addon a:hover {
+  color: #333;
+}
+
+.profileSection .profileIntro .filterDate div{
+  color: #333;
+  border: 1px solid #3333cc;
+  background: #3333cc;
+  border-radius: 4px;
+}
+
 /*================= 10.2 DASHBOARD ORDERS ==================*/
 .dashboardOrders {
   padding: 50px 0;

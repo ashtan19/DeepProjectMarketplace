@@ -174,8 +174,68 @@
               <li><i class="fa fa-hourglass-start" aria-hidden="true"></i> Deadline: Nov 27, 2017</li>
             </ul>	
             <br>
+
+            <!-- New Code for Request Form -->
+            <div class="dashboardBoxBg mb30">
+                <div class="profileIntro paraMargin">
+                    <h3>Request Form</h3>
+                    <p>The listing owner will receive this message with your order and accept or decline. </p>
+                    <div class="row">
+                        <div class="form-group col-sm-12 col-xs-12">
+                            <label for="listingTitle">Full Item Name</label>
+                            <input type="text" class="form-control" id="listingTitle" placeholder="eg. MEN'S FC BAYERN MUNICH HOME REPLICA JERSEY">
+                        </div>
+                        <div class="form-group col-sm-6 col-xs-12">
+                            <label for="listingTitle">Product Code</label>
+                            <input type="text" class="form-control" id="listingTitle" placeholder="eg. AZ7961">
+                        </div>
+                        <div class="form-group col-sm-3 col-xs-12">
+                            <label for="listingTitle">Size</label>
+                            <input type="text" class="form-control" id="listingTitle" placeholder="eg. M">
+                        </div>
+                        <div class="form-group col-sm-3 col-xs-12">
+                            <label for="listingTitle">Quantity</label>
+                            <input type="text" class="form-control" id="listingTitle" placeholder="eg. 1">
+                        </div>
+                        <div class="form-group col-sm-3 col-xs-12">
+                            <label for="listingAddress">Offering Price ($)</label>
+                            <input type="text" class="form-control" id="listingAddress" placeholder="eg. $64">
+                        </div>
+                        <div class="form-group col-sm-3 col-xs-12">
+                            <label for="listingAddress">Offering Price (DEEP)</label>
+                            <input type="text" class="form-control" id="listingAddress" placeholder="eg. 183">
+                        </div>
+
+                        <div class="form-group col-sm-6 col-xs-12">
+                            <label for="listingPhone">Method of Transfer</label>
+                            <div class="contactSelect">
+                            <select name="guiest_id19" id="guiest_id19" class="select-drop">
+                                <option value="0">Meet up</option>
+                                <option value="1">Shipping</option>
+                            </select>
+                            </div>	
+                        </div>
+
+                        <div class="form-group col-xs-12">
+                            <label for="addTags">Relay Email (This email will relay messages to your real email)</label>
+                            <input type="text" class="form-control" id="emailProfile" placeholder="random12345@deep.com" readonly>
+                        </div>
+
+                        <div class="form-group col-sm-12  col-xs-12">
+                            <label for="listingWebsite">Public Key</label>
+                            <input type="text" class="form-control" id="emailProfile" placeholder="0x------------------" readonly>
+                        </div>
+
+                        
+                    </div>
+                </div>
+  </div>
+
+
             <div class="buttons">
-              <a href="request-page.html" class="btn btn-primary"><i class="fa fa-envelope" aria-hidden="true"></i>Request</a>
+              <a href="#" class="btn btn-primary">Complete Transaction on Metamask</a> <br><br>
+              <a href="#" class="btn btn-primary request-page-form-cancel-button">Cancel</a>
+              
               </div>		
           </div>
         </div><!-- /.container -->

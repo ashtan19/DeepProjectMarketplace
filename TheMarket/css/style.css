@@ -6575,6 +6575,24 @@ input[type=radio]:focus,
   padding-left: 15px;
   padding-right: 15px;
 }
+
+/* Request-Page Cancel Button */
+.tr-breadcrumb .breadcrumb-info .buttons span a {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.tr-breadcrumb .breadcrumb-info .buttons .request-page-form-cancel-button {
+  background-color: #a1a1a1;
+  border: 1px solid #a1a1a1;
+}
+
+.request-page-form-cancel-button:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+/* Request-Page Cancel Button End */
+
 #single-listing-arrow-down div {
   text-align: center;
   font-size: 40px;
@@ -6657,13 +6675,14 @@ input[type=radio]:focus,
 
 @media (min-width: 768px) {
   .uploadImages li {
-    width: 30%;
+    width: 40%;
     margin: 12px 0;
   }
 }
 
 .uploadImages li img {
   width: 100%;
+
 }
 
 .uploadImages li .close {
@@ -7235,7 +7254,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 }
 
 .panel-card .panel-body a {
-  background-color: #eee;
+  background-color: #a1a1a1;
   text-align: center;
   margin: 31%;
   height: 20px;

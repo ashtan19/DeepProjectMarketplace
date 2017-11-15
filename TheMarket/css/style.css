@@ -6657,13 +6657,14 @@ input[type=radio]:focus,
 
 @media (min-width: 768px) {
   .uploadImages li {
-    width: 30%;
+    width: 40%;
     margin: 12px 0;
   }
 }
 
 .uploadImages li img {
   width: 100%;
+
 }
 
 .uploadImages li .close {

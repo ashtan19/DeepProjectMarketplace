@@ -81,6 +81,13 @@
 .table-responsive[data-pattern="priority-columns"] > .table {
   margin-bottom: 0;
 }
+
+.table-responsive[data-pattern="priority-columns"] > #increaseSpacingForTopAndBottomMargins {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-spacing: 0px 10px;
+}
+
 .table-responsive[data-pattern="priority-columns"] > .table > thead > tr > th,
 .table-responsive[data-pattern="priority-columns"] > .table > tbody > tr > th,
 .table-responsive[data-pattern="priority-columns"] > .table > tfoot > tr > th,

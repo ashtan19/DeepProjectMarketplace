@@ -5828,6 +5828,19 @@ figure:hover .overlay {
   font-weight: 300;
 }
 
+/* MetaMask SignUp Page */
+
+#metamask-signup img {
+  width: 100%;
+  overflow: hidden;
+
+}
+
+
+/* MetaMask SignUp Page End*/
+
+
+
 #about-us-features {
   margin: 0 auto;
 }
@@ -11097,7 +11110,7 @@ body.rtl .checkbox .pull-right.link {
 #alertIcon:before {
   box-sizing: border-box;
   color: rgb(0, 141, 239);
-  content: '""';
+  content: '';
   text-align: center;
   text-decoration: none solid rgb(0, 141, 239);
   text-size-adjust: 100%;

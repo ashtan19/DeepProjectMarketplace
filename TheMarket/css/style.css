@@ -3799,6 +3799,7 @@ footer {
 }
 
 /*================= 5.6 THINGS SECTION ==================*/
+
 .thingsArea #fixMargins {
 margin: 0px 20px 0px 0px;
 }
@@ -6955,6 +6956,8 @@ table.dataTable thead .sorting_desc_disabled:after {
 }
 
 /*================= 10.3 DASHBOARD LISTINGS SECTION ==================*/
+
+
 .listyPage {
   padding: 50px 0;
 }
@@ -8621,6 +8624,9 @@ body.rtl .checkbox .pull-right.link {
   outline: rgb(123, 123, 123) none 0px;
 }/*#DIV_1*/
 
+#DIV_1Listing {
+  margin-left: 15px;
+}
 #DIV_2 {
   box-sizing: border-box;
   color: rgb(123, 123, 123);
@@ -8716,6 +8722,51 @@ body.rtl .checkbox .pull-right.link {
 }/*#DIV_3:after*/
 
 #DIV_3DetailPage:before {
+  box-sizing: border-box;
+  color: rgb(123, 123, 123);
+  display: table;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  column-rule-color: rgb(123, 123, 123);
+  caret-color: rgb(123, 123, 123);
+  border: 0px none rgb(123, 123, 123);
+  font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
+  outline: rgb(123, 123, 123) none 0px;
+}/*#DIV_3:before*/
+
+/* This is for the catagory-grid-right cards, to make them rows of 3 instead of 4 */
+#DIV_3Listing {
+  box-sizing: border-box;
+  color: rgb(123, 123, 123);
+  height: 707.778px;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  width: 1200px;
+  column-rule-color: rgb(123, 123, 123);
+  perspective-origin: 585px 353.889px;
+  transform-origin: 585px 353.889px;
+  caret-color: rgb(123, 123, 123);
+  border: 0px none rgb(123, 123, 123);
+  font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
+  margin: 0px -15px;
+  outline: rgb(123, 123, 123) none 0px;
+}/*#DIV_3*/
+
+#DIV_3Listing:after {
+  box-sizing: border-box;
+  clear: both;
+  color: rgb(123, 123, 123);
+  display: table;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  column-rule-color: rgb(123, 123, 123);
+  caret-color: rgb(123, 123, 123);
+  border: 0px none rgb(123, 123, 123);
+  font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
+  outline: rgb(123, 123, 123) none 0px;
+}/*#DIV_3:after*/
+
+#DIV_3Listing:before {
   box-sizing: border-box;
   color: rgb(123, 123, 123);
   display: table;

@@ -7179,6 +7179,30 @@ table.dataTable thead .sorting_desc_disabled:after {
   margin: 15px;
 }
 
+
+#account-data-title-formatting .btn-group .btn-primary {
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  color: #848484;
+  font-size: 12px;
+  padding: 6px;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  font-family: 'Muli', sans-serif;
+  width: 54px;
+  border-radius: 0;
+  margin-left: 0;
+  margin-top: -1px;
+}
+
+@media (min-width: 768px) {
+  #account-data-title-formatting .btn-group .btn-primary {
+      width: auto;
+      margin-left: -1px;
+      margin-top: 0;
+  }
+}
+
 .panel-card {
   border-color: #e5e5e5;
   margin: 0 0 30px 0;
@@ -7464,6 +7488,20 @@ table.dataTable thead .sorting_desc_disabled:after {
   font-size: 13px;
   color: #848484;
   line-height: 48px;
+}
+
+.messageCommon .messageTime .btn-secondary {
+  color: #fff;
+  background-color: #a1a1a1;
+  border: 1px solid #333;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.messageCommon .messageTime .btn-secondary:hover {
+  background-color: #333;
+  border: 1px solid #333;
 }
 
 .messageCommon.oldMessage {

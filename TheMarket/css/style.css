@@ -11167,7 +11167,9 @@ body.rtl .checkbox .pull-right.link {
   transform-origin: 490px 16.5px;
   caret-color: rgb(0, 141, 239);
   border: 0px none rgb(0, 141, 239);
-  font: normal normal 400 normal 30px / 33px "Varela Round", sans-serif;
+  font-family: "Poppins",sans-serif;
+  font-weight: 500;
+  font-size: 30px;
   margin: 20px 0px 0px;
   outline: rgb(0, 141, 239) none 0px;
 }/*#H1_4*/
@@ -11185,8 +11187,10 @@ body.rtl .checkbox .pull-right.link {
   transform-origin: 490px 17px;
   caret-color: rgb(123, 123, 123);
   border: 0px none rgb(123, 123, 123);
-  font: normal normal 400 normal 24px / 34.2857px "Varela Round", sans-serif;
-  margin: 0px 0px 10px;
+  font-family: "Poppins",sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 15px 0px 10px;
   outline: rgb(123, 123, 123) none 0px;
 }/*#P_5*/
 
@@ -11258,5 +11262,5 @@ body.rtl .checkbox .pull-right.link {
 }/*#A_6:before*/
 
 #metamaskSubmitted {
-  margin: 50px 0px 0px 0px;
+  margin: 40px 0px 0px 0px;
 }

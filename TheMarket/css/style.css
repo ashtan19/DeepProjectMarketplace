@@ -5463,6 +5463,16 @@ figure:hover .overlay {
   }
 }
 
+/* Sign Up Page Create Account Button */
+
+#signup-create-account-button {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Sign Up Page Create Account Button end */
+
+
 .signUpForm .sign-up-field-headers {
   font-size: 14px;
   font-weight: bold;
@@ -5833,9 +5843,42 @@ figure:hover .overlay {
 #metamask-signup img {
   width: 100%;
   overflow: hidden;
-
+  border: 1px solid #a1a1a1;
+  border-radius: 10px;
 }
 
+#metamask-learn-more-button a {
+  border: 2px solid #3333cc;
+  background-color: #fff;
+  color: #3333cc;
+  padding-left: 10px;
+  padding-right: 10px; 
+}
+
+#metamask-learn-more-button a:hover {
+  border: 2px solid #333;
+  background-color: #333;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px; 
+}
+
+#metamask-tutorial-button {
+  border: 2px solid #3333cc;
+  background-color: #fff;
+  color: #3333cc;
+  padding-left: 10px;
+  padding-right: 10px; 
+  width: 20%;
+}
+
+#metamask-create-button {
+  margin-left: 10px;
+  border: 2px solid #3333cc;
+  padding-left: 10px;
+  padding-right: 10px; 
+  width: 20%;
+}
 
 /* MetaMask SignUp Page End*/
 

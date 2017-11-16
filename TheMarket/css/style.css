@@ -11035,3 +11035,180 @@ body.rtl .checkbox .pull-right.link {
 
 /*================= End of Seeker Cards ==================*/
 
+
+/*================ Alert Prompts ===============*/
+#alert1 {
+  box-sizing: border-box;
+  color: rgb(123, 123, 123);
+  height: 399px;
+  text-align: center;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  width: 1140px;
+  column-rule-color: rgb(123, 123, 123);
+  perspective-origin: 570px 199.5px;
+  transform-origin: 570px 199.5px;
+  caret-color: rgb(123, 123, 123);
+  background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 0px none rgb(123, 123, 123);
+  border-radius: 4px 4px 4px 4px;
+  font: normal normal 400 normal 24px / 34.2857px "Varela Round", sans-serif;
+  margin: 0px 0px 30px;
+  outline: rgb(123, 123, 123) none 0px;
+  overflow: hidden;
+  padding: 80px;
+}/*#DIV_1*/
+
+#alert2 {
+  box-sizing: border-box;
+  color: rgb(0, 141, 239);
+  height: 72px;
+  text-align: center;
+  text-decoration: none solid rgb(0, 141, 239);
+  text-size-adjust: 100%;
+  width: 980px;
+  column-rule-color: rgb(0, 141, 239);
+  perspective-origin: 490px 36px;
+  transform-origin: 490px 36px;
+  caret-color: rgb(0, 141, 239);
+  border: 0px none rgb(0, 141, 239);
+  font: normal normal 400 normal 72px / 0px "Varela Round", sans-serif;
+  outline: rgb(0, 141, 239) none 0px;
+}/*#DIV_2*/
+
+#alertIcon {
+  box-sizing: border-box;
+  color: rgb(0, 141, 239);
+  display: inline-block;
+  height: 72px;
+  text-align: center;
+  text-decoration: none solid rgb(0, 141, 239);
+  text-size-adjust: 100%;
+  width: 66.8594px;
+  column-rule-color: rgb(0, 141, 239);
+  perspective-origin: 33.4219px 36px;
+  transform-origin: 33.4219px 36px;
+  caret-color: rgb(0, 141, 239);
+  border: 0px none rgb(0, 141, 239);
+  font: normal normal 400 normal 72px / 72px FontAwesome;
+  outline: rgb(0, 141, 239) none 0px;
+}/*#I_3*/
+
+#alertIcon:before {
+  box-sizing: border-box;
+  color: rgb(0, 141, 239);
+  content: '""';
+  text-align: center;
+  text-decoration: none solid rgb(0, 141, 239);
+  text-size-adjust: 100%;
+  column-rule-color: rgb(0, 141, 239);
+  perspective-origin: 0px 0px;
+  transform-origin: 0px 0px;
+  caret-color: rgb(0, 141, 239);
+  border: 0px none rgb(0, 141, 239);
+  font: normal normal 400 normal 72px / 72px FontAwesome;
+  outline: rgb(0, 141, 239) none 0px;
+}/*#I_3:before*/
+
+#alertHeader {
+  box-sizing: border-box;
+  color: rgb(0, 141, 239);
+  height: 33px;
+  text-align: center;
+  text-decoration: none solid rgb(0, 141, 239);
+  text-size-adjust: 100%;
+  width: 980px;
+  column-rule-color: rgb(0, 141, 239);
+  perspective-origin: 490px 16.5px;
+  transform-origin: 490px 16.5px;
+  caret-color: rgb(0, 141, 239);
+  border: 0px none rgb(0, 141, 239);
+  font: normal normal 400 normal 30px / 33px "Varela Round", sans-serif;
+  margin: 20px 0px 0px;
+  outline: rgb(0, 141, 239) none 0px;
+}/*#H1_4*/
+
+#alertSmallHeader {
+  box-sizing: border-box;
+  color: rgb(123, 123, 123);
+  height: 34px;
+  text-align: center;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  width: 980px;
+  column-rule-color: rgb(123, 123, 123);
+  perspective-origin: 490px 17px;
+  transform-origin: 490px 17px;
+  caret-color: rgb(123, 123, 123);
+  border: 0px none rgb(123, 123, 123);
+  font: normal normal 400 normal 24px / 34.2857px "Varela Round", sans-serif;
+  margin: 0px 0px 10px;
+  outline: rgb(123, 123, 123) none 0px;
+}/*#P_5*/
+
+#alertButton {
+  bottom: 0px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  height: 35px;
+  left: 0px;
+  position: relative;
+  right: 0px;
+  text-align: center;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  text-transform: uppercase;
+  top: 0px;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 152.297px;
+  z-index: 1;
+  column-rule-color: rgb(255, 255, 255);
+  perspective-origin: 76.1406px 17.5px;
+  transform-origin: 76.1406px 17.5px;
+  user-select: none;
+  caret-color: rgb(255, 255, 255);
+  background: rgb(0, 141, 239) none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 1px solid rgb(0, 141, 239);
+  border-radius: 30px 30px 30px 30px;
+  font: normal normal 400 normal 14px / 20px "Varela Round", sans-serif;
+  margin: 35px 0px 0px;
+  outline: rgb(255, 255, 255) none 0px;
+  overflow: hidden;
+  padding: 8px 20px 5px;
+  transition: all 0.5s ease 0s;
+}/*#A_6*/
+
+#alertButton:before {
+  bottom: 0px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  content: '""';
+  cursor: pointer;
+  display: block;
+  height: 33px;
+  left: 150.297px;
+  position: absolute;
+  right: -150.297px;
+  text-align: center;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-size-adjust: 100%;
+  text-transform: uppercase;
+  top: 0px;
+  white-space: nowrap;
+  width: 150.297px;
+  z-index: -1;
+  column-rule-color: rgb(255, 255, 255);
+  perspective-origin: 75.1406px 16.5px;
+  transform-origin: 75.1406px 16.5px;
+  user-select: none;
+  caret-color: rgb(255, 255, 255);
+  background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 0px none rgb(255, 255, 255);
+  font: normal normal 400 normal 14px / 20px "Varela Round", sans-serif;
+  outline: rgb(255, 255, 255) none 0px;
+  transition: all 0.5s ease 0s;
+}/*#A_6:before*/

@@ -6657,7 +6657,7 @@ input[type=radio]:focus,
 
 
 .listing__form .btn-submit {
-  background-color: #2196f3;
+  background-color: #3333cc;
   color: #ffffff;
   font-size: 20px;
   text-transform: uppercase;
@@ -6666,12 +6666,13 @@ input[type=radio]:focus,
   height: 64px;
   width: 470px;
   letter-spacing: 5px;
-  border-radius: 2px;
-  transition: opacity 0.2s ease;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
 }
 
 .listing__form .btn-submit:hover {
-  opacity: 0.9;
+  background-color: #333;
+  
 }
 
 .profileImage {
@@ -7317,6 +7318,8 @@ table.dataTable thead .sorting_desc_disabled:after {
   padding: 30px 20px;
 }
 
+
+
 .panel-card .panel-body h2 {
   font-size: 35px;
   color: #848484;
@@ -7391,6 +7394,10 @@ table.dataTable thead .sorting_desc_disabled:after {
 .panel-card .rating li {
   border: none;
   padding: 0;
+}
+
+.dashboard-completed-transactions {
+  padding-bottom: 5px;
 }
 
 .equalHeight .container .row:nth-child(2) {

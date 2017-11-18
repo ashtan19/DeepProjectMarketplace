@@ -8683,6 +8683,23 @@ body.rtl .checkbox .pull-right.link {
 #DIV_1Listing {
   margin-left: 15px;
 }
+
+#DIV_1MainListingPage {
+  box-sizing: border-box;
+  color: rgb(123, 123, 123);
+  height: 707.778px;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  width: 830px;
+  column-rule-color: rgb(123, 123, 123);
+  perspective-origin: 570px 353.889px;
+  transform-origin: 570px 353.889px;
+  caret-color: rgb(123, 123, 123);
+  border: 0px none rgb(123, 123, 123);
+  font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
+  outline: rgb(123, 123, 123) none 0px;
+}
+
 #DIV_2 {
   box-sizing: border-box;
   color: rgb(123, 123, 123);
@@ -8699,6 +8716,24 @@ body.rtl .checkbox .pull-right.link {
   outline: rgb(123, 123, 123) none 0px;
   transition: opacity 0.15s linear 0s;
 }/*#DIV_2*/
+
+#DIV_2MainListingPage {
+  box-sizing: border-box;
+  color: rgb(123, 123, 123);
+  height: 707.778px;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  width: 830px;
+  column-rule-color: rgb(123, 123, 123);
+  perspective-origin: 570px 353.889px;
+  transform-origin: 570px 353.889px;
+  caret-color: rgb(123, 123, 123);
+  border: 0px none rgb(123, 123, 123);
+  font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
+  outline: rgb(123, 123, 123) none 0px;
+  transition: opacity 0.15s linear 0s;
+}
+
 
 #DIV_3 {
   box-sizing: border-box;
@@ -8789,6 +8824,60 @@ body.rtl .checkbox .pull-right.link {
   font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
   outline: rgb(123, 123, 123) none 0px;
 }/*#DIV_3:before*/
+
+/* */
+#DIV_3MainListingPage {
+  box-sizing: border-box;
+  color: rgb(123, 123, 123);
+  height: 707.778px;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  width: 880px;
+  column-rule-color: rgb(123, 123, 123);
+  perspective-origin: 585px 353.889px;
+  transform-origin: 585px 353.889px;
+  caret-color: rgb(123, 123, 123);
+  border: 0px none rgb(123, 123, 123);
+  font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
+  margin: 0px -15px;
+  outline: rgb(123, 123, 123) none 0px;
+}/*#DIV_3*/
+
+#DIV_3MainListingPage:after {
+  box-sizing: border-box;
+  clear: both;
+  color: rgb(123, 123, 123);
+  display: table;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  column-rule-color: rgb(123, 123, 123);
+  caret-color: rgb(123, 123, 123);
+  border: 0px none rgb(123, 123, 123);
+  font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
+  outline: rgb(123, 123, 123) none 0px;
+}/*#DIV_3:after*/
+
+#DIV_3MainListingPage:before {
+  box-sizing: border-box;
+  color: rgb(123, 123, 123);
+  display: table;
+  text-decoration: none solid rgb(123, 123, 123);
+  text-size-adjust: 100%;
+  column-rule-color: rgb(123, 123, 123);
+  caret-color: rgb(123, 123, 123);
+  border: 0px none rgb(123, 123, 123);
+  font: normal normal normal normal 14px / 20px "Varela Round", sans-serif;
+  outline: rgb(123, 123, 123) none 0px;
+}/*#DIV_3:before*/
+
+/* MainListingPage To Fix Right Spacing  */
+
+#fixRightSpacingOnMainListing {
+margin-left: -60px;
+
+}
+
+
 
 /* This is for the catagory-grid-right cards, to make them rows of 3 instead of 4 */
 #DIV_3Listing {

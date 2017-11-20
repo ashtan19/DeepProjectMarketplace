@@ -5413,6 +5413,17 @@ figure:hover .overlay {
   border-style: solid;
 }
 
+.howWorksInner .resizeDeliveredImage {
+  max-width:100%;
+  max-height:100%;
+  border-width: 40px;
+  border-color:#616161;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+
+
 /*=== 8. BUSINESS ===*/
 .businessIntro {
   border-bottom: 1px solid #e5e5e5;

@@ -279,7 +279,7 @@
 									<td>
 										<div class="">
 											<button type="button" class="btn btn-dashboard-action" type="button" data-toggle="modal" data-target="#ViewCardDetailModal">View</button>											
-											<button type="button" class="btn btn-dashboard-action">Delivered</button>
+											<button type="button" class="btn btn-dashboard-action" type="button" data-toggle="modal" data-target="#ItemDeliveredModal">Delivered</button>
 											<button type="button" class="btn btn-dashboard-action">Dispute</button>
 										</div>
 									</td>
@@ -305,7 +305,7 @@
 									<td>
 										<div class="">
 											<button type="button" class="btn btn-dashboard-action" type="button" data-toggle="modal" data-target="#ViewCardDetailModal">View</button>											
-											<button type="button" class="btn btn-dashboard-action">Delivered</button>
+											<button type="button" class="btn btn-dashboard-action" type="button" data-toggle="modal" data-target="#ItemDeliveredModal">Delivered</button>
 											<button type="button" class="btn btn-dashboard-action">Dispute</button>
 										</div>
 									</td>
@@ -352,7 +352,7 @@
 									<td>
 										<div class="">
 											<button type="button" class="btn btn-dashboard-action" type="button" data-toggle="modal" data-target="#ViewCardDetailModal">View</button>											
-											<button type="button" class="btn btn-dashboard-action" data-toggle="modal" data-target="#AcceptRequestModal">Accept</button>
+											<button type="button" class="btn btn-dashboard-action" type="button" data-toggle="modal" data-target="#AcceptRequestModal">Accept</button>
 											<button type="button" class="btn btn-dashboard-action">Decline</button>
 										</div>
 									</td>
@@ -382,7 +382,7 @@
 									<td>
 										<div class="">
 											<button type="button" class="btn btn-dashboard-action" type="button" data-toggle="modal" data-target="#ViewCardDetailModal">View</button>											
-											<button type="button" class="btn btn-dashboard-action">Delivered</button>
+											<button type="button" class="btn btn-dashboard-action" type="button" data-toggle="modal" data-target="#ItemDeliveredModal">Delivered</button>
 											<button type="button" class="btn btn-dashboard-action">Dispute</button>
 										</div>
 									</td>
@@ -408,7 +408,7 @@
 									<td>
 										<div class="">
 											<button type="button" class="btn btn-dashboard-action" type="button" data-toggle="modal" data-target="#ViewCardDetailModal">View</button>											
-											<button type="button" class="btn btn-dashboard-action">Delivered</button>
+											<button type="button" class="btn btn-dashboard-action" type="button" data-toggle="modal" data-target="#ItemDeliveredModal">Delivered</button>
 											<button type="button" class="btn btn-dashboard-action">Dispute</button>
 										</div>
 									</td>
@@ -585,7 +585,7 @@
 			</div>
 		</div>
 
-			  <!-- ViewCardDetail  MODAL -->
+			  <!-- Accept Request  MODAL -->
 				<div id="AcceptRequestModal" tabindex="-1" class="modal fade" role="dialog">
 						<div class="modal-dialog">
 				
@@ -608,7 +608,7 @@
 										<span class="messageTime">
 												<div class="">
 														<button type="button" class="btn btn-dashboard-action">Continue to MetaMask</button>
-														<button type="button" class="btn btn-dashboard-action">Cancel</button>
+														<button type="button" class="btn btn-dashboard-action" data-dismiss="modal">Cancel</button>
 													</div>
 										</span>
 									</div>
@@ -617,6 +617,35 @@
 				
 						</div>
 					</div>
+
+
+	  <!-- Delivered  MODAL -->
+		<div id="ItemDeliveredModal" tabindex="-1" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+		
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Confirming Item is Delivered</h4>
+						</div>
+						<div class="modal-body">
+							<div class="accept-request-modal-button-div">
+									<p>Once delivery has been confirmed, the funds in the smart contract will be released and the security deposit will be returned.</p>
+									<br>
+									<h5>Confirm Item has been Delivered?</h5>
+									<span class="messageTime">
+											<div class="">
+													<button type="button" class="btn btn-dashboard-action dashboard-delivered-modal-icons"><i class="fa fa-check" aria-hidden="true"></i></button> &nbsp &nbsp 
+													<button type="button" class="btn btn-dashboard-action dashboard-delivered-modal-icons" data-dismiss="modal"><i class="fa fa-close" aria-hidden="true"></i></button>
+												</div>
+									</span>
+								</div>
+						</div>
+					</div>
+		
+				</div>
+			</div>
 
   <!-- JAVASCRIPTS -->
   <script src="plugins/jquery/jquery.min.js"></script>

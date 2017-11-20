@@ -5317,6 +5317,7 @@ figure:hover .overlay {
 @media (min-width: 768px) {
   .howWorksInfo.text-right {
     text-align: right;
+    margin-left: 130px;
   }
 }
 
@@ -5353,9 +5354,32 @@ figure:hover .overlay {
 /*=== 7. HOW IT WORKS EDITS===*/
 
 .howWorksInner .resizeMetamaskImage {
-  width:330px;
-  height: 200px;
+  max-width:70%;
+  max-height:70%;
+  border-width: 40px;
+  border-color:#616161;
   border-radius: 5px;
+  border-style: solid;
+  
+}
+
+.howWorksInner .resizeMarketplaceImage {
+  max-width:125%;
+  max-height:125%;
+  border-width: 40px;
+  border-color:#616161;
+  border-radius: 5px;
+  border-style: solid; 
+}
+
+.howWorksInner .resizeRequestImage {
+  max-width:130%;
+  max-height:130%;
+  border-width: 40px;
+  border-color:#616161;
+  border-radius: 5px;
+  border-style: solid;
+  
 }
 
 /*=== 8. BUSINESS ===*/

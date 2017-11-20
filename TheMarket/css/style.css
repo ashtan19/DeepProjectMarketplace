@@ -466,6 +466,31 @@ section {
   background-color: #2196f3;
 }
 
+/* Format for dashboard action buttons */
+.btn-dashboard-action {
+  transition: all 0.3s ease-in-out;
+  background-color:#a1a1a1;
+}
+.btn-dashboard-action > i {
+  margin-right: 10px;
+}
+
+.btn-dashboard-action:hover {
+  background-color: #3333cc;
+}
+
+.btn-dashboard-action:focus, .btn-dashboard-action.active, .btn-dashboard-action:active {
+  background-color: #2196f3;
+}
+
+@media (min-width: 992px) {
+  .btn-dashboard-action {
+    padding: 10px;
+    font-size: 10px;
+  }
+}
+/* end */
+
 .btn-border {
   border: 2px solid #ffffff;
   padding: 10px 0;
@@ -905,6 +930,11 @@ textarea.form-control {
 
 #loginModal .modal-footer p {
   margin-bottom: 0;
+}
+
+/* Dashboard View Modal Image */
+#Delivery-Progress-Bar-image {
+  width: 100%;
 }
 
 a.link:hover {

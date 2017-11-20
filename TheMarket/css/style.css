@@ -937,6 +937,29 @@ textarea.form-control {
   width: 100%;
 }
 
+
+
+/* Dashboard Accept Modal button div */
+.accept-request-modal-button-div {
+  margin: auto;
+  text-align: center;
+}
+
+.accept-request-modal-button-div span div button:first-child {
+  background-color: #3333cc;
+}
+
+.accept-request-modal-button-div span div button:first-child:hover {
+  background-color: #333;
+}
+
+.accept-request-modal-button-div span div button:last-child:hover {
+  background-color: #a1a1a1;
+}
+/* Dashboard Accept Modal button div end */
+
+
+
 a.link:hover {
   color: #2196f3;
 }

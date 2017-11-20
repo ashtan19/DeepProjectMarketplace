@@ -5297,6 +5297,14 @@ figure:hover .overlay {
   }
 }
 
+/*=== 7. HOW IT WORKS EDITS===*/
+
+.howWorksInner .resizeMetamaskImage {
+  width:330px;
+  height: 200px;
+  border-radius: 5px;
+}
+
 /*=== 8. BUSINESS ===*/
 .businessIntro {
   border-bottom: 1px solid #e5e5e5;

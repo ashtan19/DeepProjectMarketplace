@@ -960,6 +960,29 @@ textarea.form-control {
 
 
 
+/* Dashboard Delivered Modal button div */
+.dashboard-delivered-modal-icons {
+  border-radius: 5px;
+}
+
+.dashboard-delivered-modal-icons i {
+  padding: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 20px;
+  margin: 0;
+  color:white;
+  text-align: center;
+}
+
+#ItemDeliveredModal .modal-title {
+  text-align: center;
+}
+
+
+
+
+
 a.link:hover {
   color: #2196f3;
 }

@@ -5294,7 +5294,7 @@ figure:hover .overlay {
 
 @media (min-width: 768px) {
   .howWorksInner {
-    padding: 100px 0;
+    padding: 80px 0;
     border-bottom: 1px solid #e5e5e5;
   }
 }
@@ -5364,8 +5364,8 @@ figure:hover .overlay {
 }
 
 .howWorksInner .resizeMarketplaceImage {
-  max-width:125%;
-  max-height:125%;
+  max-width:140%;
+  max-height:140%;
   border-width: 40px;
   border-color:#616161;
   border-radius: 5px;
@@ -5373,13 +5373,21 @@ figure:hover .overlay {
 }
 
 .howWorksInner .resizeRequestImage {
-  max-width:130%;
+  max-width:100%;
   max-height:130%;
   border-width: 40px;
   border-color:#616161;
   border-radius: 5px;
+  border-style: solid; 
+}
+
+.howWorksInner .resizeMyRequestImage {
+  max-width:150%;
+  max-height:150%;
+  border-width: 40px;
+  border-color:#616161;
+  border-radius: 5px;
   border-style: solid;
-  
 }
 
 /*=== 8. BUSINESS ===*/
